@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  z-index: 5;
+  background-color: black;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.menu li {
+  display: inline;
+  padding-right: 10px;
+}
+
+a:link, a:visited {
+  color: seashell;
+}
+
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.container {
+  height: 700px;
+  display: flex;
+  background-image: url("img/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+}
+
+.title {
+  width: 1200px;
+  height: 120px;
+  background-color: black;
+  padding: 10Px;
+}
+
+.title  h2 , .title h4 {
+  padding : 10px;
+}
+
+.featured {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  margin: 40px auto;
+
+}
+
+.featured-title h2 {
+  padding: 20px;
+}
+
+.featured-title h4 {
+  padding-bottom: 30px;
+}
+
+.featured-tea {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.featured-tea h4 {
+  margin-bottom: 20px;
+}
+
+.tea img {
+width: 300px;
+height: 200px;
+}
+
+.tea h4 {
+  padding: 10px;
+}
+
+.locations {
+  height: 500px;
+  background-image: url("img/img-locations-background.jpg");
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addresses {
+  display: flex;
+  justify-content: center;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 20px;
+  margin-top: 15px;
+  opacity: 1;
+
+}
+
+.contacts {
+  height: 200px;
+}
+
+.contacts h2, .contacts h5 {
+  margin: 20px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  text-align: left;
+  margin: 20px;
+}
